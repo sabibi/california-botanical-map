@@ -26,7 +26,7 @@ map.addControl(
 var bounds = new mapboxgl.LngLatBounds();
 
 $.getJSON(
-  "https://sheets.googleapis.com/v4/spreadsheets/118e8i5gIbenmua1zNQFNJwyMBahZ0VTZzcsLera2Zcg/values/Sheet1!A2:N1000?majorDimension=ROWS&key=AIzaSyBDYV5iGK3gcKZyPvTRJiscHDWj-js-p8M",
+  "https://sheets.googleapis.com/v4/spreadsheets/118e8i5gIbenmua1zNQFNJwyMBahZ0VTZzcsLera2Zcg/values/Sheet1!A2:N1000?majorDimension=ROWS&key=AIzaSyCcZwO2eslavGHeWabR2L5rqYwZtLHPVqA",
   function (response) {
     //start adding path between points
     var coordsArray = [];
