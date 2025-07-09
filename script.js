@@ -72,8 +72,8 @@ $.getJSON(
       var image = marker[2];
       var article = marker[3];
       var video = marker[4];
-      var lat = parseFloat(marker[5]);
-      var lng = parseFloat(marker[6]);
+      var lat = marker[5];
+      var lng = marker[6];
 
 
       //add markers to map
