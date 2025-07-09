@@ -77,7 +77,7 @@ $.getJSON(
 
       //add markers to map
 
-      bounds.extend([latitude, longitude]);
+      bounds.extend([longitude, latitude]);
 
       var popup = new mapboxgl.Popup().setHTML(
         '<div class="popup-image"><img src = "images/' +
@@ -179,7 +179,7 @@ $.getJSON(
         });
       });
 
-      // web - move popup when map is moved, so the popup will remain atthe same distance from the marker
+      // web - move popup when map is moved, so the popup will remain at the same distance from the marker
       // map.on('mouseup', function () {
       //     console.log('A mouseup event has occurred.');
       //     var topOffset = $(el).offset().top - 80;
@@ -189,7 +189,7 @@ $.getJSON(
       //     $('div.custom-popup').css('left', leftOffset);
       // });
 
-      // mobile - move popup when map is moved, so the popup will remain atthe same distance from the marker
+      // mobile - move popup when map is moved, so the popup will remain at the same distance from the marker
       // map.on('touchmove', function () {
       //     console.log('A mouseup event has occurred.');
       //     var topOffset = $(el).offset().top - 80;
@@ -201,7 +201,7 @@ $.getJSON(
 
       // add marker to map
       new mapboxgl.Marker(el)
-        .setLngLat([latitude, longitude])
+        .setLngLat([longitude, latitude])
         // .setPopup(popup)
         .addTo(map);
 
