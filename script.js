@@ -95,6 +95,14 @@ $.getJSON(
       var el = document.createElement("div");
       el.className = "marker";
 
+      el.style.width = "30px";
+el.style.height = "30px";
+el.style.backgroundColor = "#f04e98"; // vibrant shade
+el.style.borderRadius = "50%";
+el.style.border = "2px solid white";
+el.style.boxShadow = "0 0 6px rgba(0, 0, 0, 0.3)";
+el.style.cursor = "pointer";
+      
       // create a custom popup
       $(el).on("click", function (e) {
         // Prevent the `map.on('click')` from being triggered
