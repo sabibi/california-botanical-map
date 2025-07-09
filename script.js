@@ -102,6 +102,11 @@ el.style.borderRadius = "50%";
 el.style.border = "2px solid white";
 el.style.boxShadow = "0 0 6px rgba(0, 0, 0, 0.3)";
 el.style.cursor = "pointer";
+
+      new mapboxgl.Marker(el)
+  .setLngLat([longitude, latitude])
+  .addTo(map);
+
       
       // create a custom popup
       $(el).on("click", function (e) {
