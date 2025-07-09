@@ -93,14 +93,16 @@ $.getJSON(
 
       // create a HTML element for each feature
       var el = document.createElement("div");
-      el.className = "marker";
+el.className = "marker";
 
-      el.style.width = "30px";
+// 🔧 Add inline fallback styling
+el.style.width = "30px";
 el.style.height = "30px";
-el.style.backgroundColor = "#f04e98"; // vibrant shade
+el.style.backgroundColor = "#f04e98";
 el.style.borderRadius = "50%";
 el.style.border = "2px solid white";
 el.style.boxShadow = "0 0 6px rgba(0, 0, 0, 0.3)";
+
 el.style.cursor = "pointer";
 
       new mapboxgl.Marker(el)
