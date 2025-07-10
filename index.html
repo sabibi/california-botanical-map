@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <title>California Botanical Map</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 
-  <!-- 🧭 External fonts (if CSP allows) -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-
-  <!-- ✅ Mapbox CSS (local fallback if needed) -->
-  <link href="mapbox-gl.css" rel="stylesheet" />
-
-  <!-- ✅ Your own CSS -->
-  <link href="style.css" rel="stylesheet" />
-
-  <!-- ✅ jQuery and Mapbox JS (local fallback if needed) -->
-  <script src="jquery.min.js"></script>
+  <!-- ✅ Mapbox GL JS styles and scripts (hosted locally) -->
+  <link href="mapbox-gl.css" rel="stylesheet">
   <script src="mapbox-gl.js"></script>
-</head>
 
+  <!-- Your own stylesheet -->
+  <link href="style.css" rel="stylesheet">
+</head>
 <body>
-  <!-- Your map container and other elements go here -->
+  <!-- Map container and other content -->
   <div id="map"></div>
+
+  <!-- Your custom script that uses Mapbox -->
   <script src="script.js"></script>
 </body>
-
 </html>
 
