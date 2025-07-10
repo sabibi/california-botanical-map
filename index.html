@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>California Botanical Map</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 
-  <!-- ✅ Mapbox GL JS styles and scripts (hosted locally) -->
-  <link href="mapbox-gl.css" rel="stylesheet">
-<script src="jquery.min.js"></script>
+  <!-- 🌐 Optional Google Font (can remove if blocked by CSP) -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-  <!-- Your own stylesheet -->
+  <!-- ✅ Local Mapbox styles and jQuery -->
+  <link href="mapbox-gl.css" rel="stylesheet">
+  <script src="jquery.min.js"></script>
+  <script src="mapbox-gl.js"></script>
+
+  <!-- 🪄 Your custom styles -->
   <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-  <!-- Map container and other content -->
+
+  <!-- Map container -->
   <div id="map"></div>
 
-  <!-- Your custom script that uses Mapbox -->
+  <!-- Optional additional UI containers -->
+  <div class="welcome-first"></div>
+  <div class="welcome-second"></div>
+  <div class="welcome-third"></div>
+  <div class="welcome-fourth"></div>
+  <div class="welcome-fifth"></div>
+  <div class="sidebar"></div>
+  <div class="custom-popup"></div>
+
+  <!-- 🚀 Your custom JavaScript -->
   <script src="script.js"></script>
+
 </body>
 </html>
+
 
