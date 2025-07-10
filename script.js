@@ -69,8 +69,8 @@ console.log("Google Sheets response:", response.values);
       var image = marker[2];
       var article = marker[3];
       var videoURL = marker[4]; // Should be a valid YouTube embed URL
-      var lat = parseFloat(marker[5]);
-      var lng = parseFloat(marker[6]);
+      var lat = marker[5];
+      var lng = marker[6];
 
       if (isNaN(lat) || isNaN(lng)) return;
 
